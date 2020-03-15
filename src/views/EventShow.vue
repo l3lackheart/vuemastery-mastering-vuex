@@ -1,15 +1,17 @@
 <template>
   <div>
     <div class="event-header">
-      <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
-      <h1 class="title">{{ event.title }}</h1>
-      <h5>Organized by {{ event.organizer }}</h5>
-      <h5>Category: {{ event.category }}</h5>
+      <span class="eyebrow"
+        >@{{ event.event.time }} on {{ event.event.date }}</span
+      >
+      <h1 class="title">{{ event.event.title }}</h1>
+      <h5>Organized by {{ event.event.organizer }}</h5>
+      <h5>Category: {{ event.event.category }}</h5>
     </div>
     <base-icon name="map"><h2>Location</h2></base-icon>
-    <address>{{ event.location }}</address>
+    <address>{{ event.event.location }}</address>
     <h2>Event details</h2>
-    <p>{{ event.description }}</p>
+    <p>{{ event.event.description }}</p>
     <h2>
       Attendees
       <span class="badge -fill-gradient">{{
@@ -29,14 +31,17 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 export default {
   props: ['eventId'],
   created() {
-    this.$store.dispatch('fetchEvent', this.eventId)
+    this.fetchEvent(this.eventId)
   },
   computed: {
     ...mapState(['event'])
+  },
+  methods: {
+    ...mapActions('event', ['fetchEvent'])
   }
 }
 </script>

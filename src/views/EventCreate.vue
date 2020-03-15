@@ -76,7 +76,7 @@ export default {
       })
     },
     createFreshEventObject() {
-      const user = this.$store.state.user
+      const user = this.$store.state.user.user
       return {
         id: Math.floor(Math.random() * 1000),
         category: '',
