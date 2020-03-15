@@ -1,49 +1,133 @@
 {
-    "events": [
-        {
-            "id": 5928101,
-            "user": {
-                "id": "abc123",
-                "name": "Adam"
-            },
-            "category": "animal welfare",
-            "organizer": "Adam",
-            "title": "Cat Cabaret",
-            "description": "Yay felines!",
-            "location": "Meow Town",
-            "date": "2019-01-03T21:54:00.000Z",
-            "time": "2:00",
-            "attendees": []
-        },
-        {
-            "id": 8419988,
-            "user": {
-                "id": "abc123",
-                "name": "Adam"
-            },
-            "category": "animal welfare",
-            "organizer": "Adam",
-            "title": "Kitty Cluster",
-            "description": "Yay cats!",
-            "location": "Catlandia",
-            "date": "2019-01-31T22:09:00.000Z",
-            "time": "7:00",
-            "attendees": []
-        },
-        {
-            "id": 4582797,
-            "user": {
-                "id": "abc123",
-                "name": "Adam"
-            },
-            "category": "animal welfare",
-            "organizer": "Adam",
-            "title": "Puppy Parade",
-            "description": "Yay pups!",
-            "location": "Puptown ",
-            "date": "2019-02-02T23:27:00.000Z",
-            "time": "1:00",
-            "attendees": []
-        }
-    ]
+  "events": [
+    {
+      "id": 5928101,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": []
+    },
+    {
+      "id": 8419988,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Kitty Cluster",
+      "description": "Yay cats!",
+      "location": "Catlandia",
+      "date": "2019-01-31T22:09:00.000Z",
+      "time": "7:00",
+      "attendees": []
+    },
+    {
+      "id": 4582797,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Puppy Parade",
+      "description": "Yay pups!",
+      "location": "Puptown ",
+      "date": "2019-02-02T23:27:00.000Z",
+      "time": "1:00",
+      "attendees": []
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "Learning",
+      "description": "vue",
+      "location": "HN",
+      "date": "2020-03-15T03:49:00.000Z",
+      "time": "10:00",
+      "attendees": [],
+      "id": 8419989
+    },
+    {
+      "category": "community",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "Meet Nil",
+      "description": "",
+      "location": "In the city",
+      "date": "2020-03-20T03:54:00.000Z",
+      "time": "20:00",
+      "attendees": [],
+      "id": 8419990
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "Taste scrambled egg",
+      "description": "cook it and kill it",
+      "location": "Home sweet home",
+      "date": "2020-03-05T03:58:00.000Z",
+      "time": "18:00",
+      "attendees": [],
+      "id": 8419991
+    },
+    {
+      "category": "nature",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "Plant tree",
+      "description": "",
+      "location": "the Forest",
+      "date": "2020-03-28T03:59:00.000Z",
+      "time": "9:00",
+      "attendees": [],
+      "id": 8419992
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "Cook steak",
+      "description": "and kill it",
+      "location": "Very own house",
+      "date": "2020-04-03T04:00:00.000Z",
+      "time": "10:00",
+      "attendees": [],
+      "id": 8419993
+    },
+    {
+      "id": 379,
+      "category": "community",
+      "organizer": {
+        "id": 310,
+        "name": "Baro"
+      },
+      "title": "RapRap",
+      "description": "listen to rap",
+      "location": "Guess",
+      "date": "2020-05-02T04:03:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    }
+  ]
 }
